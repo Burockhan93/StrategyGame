@@ -1,5 +1,4 @@
-
-![Animated GIF](tri6es-client/Assets/Demo/gameplay.gif)
+<img src="tri6es-client/Assets/Demo/gameplay.gif" width="300" alt="Animated GIF">
 
 # 🌍 StrategyGame
 
