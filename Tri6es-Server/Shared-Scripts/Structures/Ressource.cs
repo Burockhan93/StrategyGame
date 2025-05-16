@@ -86,7 +86,6 @@ namespace Shared.Structures
 
         public virtual bool ManuallyHarvestable()
         {
-           //return true;
             if (Progress == MaxProgress) { return true; } else { return false; }
         }
 

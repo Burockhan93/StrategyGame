@@ -55,9 +55,8 @@ namespace Shared.Game
         {
             if (stateLogics.Count < 1) CreateLogics();
           
-            Console.WriteLine("state "+_state);
-           
-            Console.WriteLine("I am ticking, life is ticking...");
+            //Console.WriteLine("state "+_state);       
+            
 
             switch (_state)
             {

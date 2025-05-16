@@ -45,6 +45,8 @@ namespace Shared.Game
 
         private static String _currentTime;
 
+        private static bool showLog = false;
+
         public static void newGameInit(HexGrid.HexGrid hexGrid)
         {
             initialized = true;
@@ -1354,7 +1356,6 @@ namespace Shared.Game
 
             XmlDocument xml_doc = new();
 
-            Console.WriteLine("Test: \n" + weather);
             try
             {
                 xml_doc.LoadXml(weather);
@@ -1363,17 +1364,19 @@ namespace Shared.Game
                 // Get the city, country, latitude, and longitude.
                 XmlNode loc_node = xml_doc.SelectSingleNode("current/city");
                 String txtCity = loc_node.Attributes["name"].Value;
-                Console.WriteLine($"textCity: {txtCity}");
                 String txtId = loc_node.Attributes["id"].Value;
-                Console.WriteLine($"txtId: {txtId}");
                 String txtCountry = loc_node.SelectSingleNode("country").InnerText;
-                Console.WriteLine($"txtCountry: {txtCountry}");
                 XmlNode geo_node = loc_node.SelectSingleNode("coord");
                 String txtLat = geo_node.Attributes["lat"].Value;
-                Console.WriteLine($"txtLat: {txtLat}");
                 String txtLong = geo_node.Attributes["lon"].Value;
-                Console.WriteLine($"txtLong: {txtLong}");
-
+                if (showLog)
+                {
+                    Console.WriteLine($"textCity: {txtCity}");
+                    Console.WriteLine($"txtId: {txtId}");
+                    Console.WriteLine($"txtCountry: {txtCountry}");
+                    Console.WriteLine($"txtLat: {txtLat}");
+                    Console.WriteLine($"txtLong: {txtLong}");
+                }
                 char degrees = (char)176;
 
                 XmlNode time_node = xml_doc.SelectSingleNode("current/lastupdate");
@@ -1397,13 +1400,15 @@ namespace Shared.Game
                 XmlNode wind_node = xml_doc.SelectSingleNode("current/wind");
                 string wind = wind_node.SelectSingleNode("speed").Attributes["value"].Value;
 
-
-                Console.WriteLine($"DayOfWeek: {time.DayOfWeek}");
-                Console.WriteLine($"TimeString: {time.ToShortTimeString()}");
-                Console.WriteLine($"temp + degrees: {temp + degrees}");
-                Console.WriteLine($"weather: {weather_value + weather_id}");
-                Console.WriteLine($"wind: {wind} m/s");
-                Console.WriteLine($"precipitation: {precipitation}");
+                if (showLog)
+                {
+                    Console.WriteLine($"DayOfWeek: {time.DayOfWeek}");
+                    Console.WriteLine($"TimeString: {time.ToShortTimeString()}");
+                    Console.WriteLine($"temp + degrees: {temp + degrees}");
+                    Console.WriteLine($"weather: {weather_value + weather_id}");
+                    Console.WriteLine($"wind: {wind} m/s");
+                    Console.WriteLine($"precipitation: {precipitation}");
+                }
             }
             catch (XmlException e)
             {
@@ -1517,11 +1522,7 @@ namespace Shared.Game
                 foreach(Player p in Players)
                 {
                     p.DoTick();
-                    //if (typeof(AIPlayer).IsAssignableFrom(p.GetType()))
-                    //{
-                    //    AIPlayer pl = (AIPlayer)p;
-                    //    pl.DoTick();
-                    //} 
+                   
                 }
                 updateCellStructures();
             }
