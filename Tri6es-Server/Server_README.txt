@@ -1,11 +1,13 @@
 ------ Server README -------
 
-Starte den Server.
-Trage Geokoordinaten (mit Dezimahlkomma) in die Konsole ein oder bestätige zweimal mit enter und es werden die Standartkoordinaten geladen.
-Der Server startet.
-Der Server läuft standartmäßig auf dem Port 42069. Diesen müssen Sie in ihrem Router Freigeben.
-Nun können Sie in der App mit der richtigen IP:Port connecten.
+Enter geographical coordinates (in decimal format) into the console, or press Enter twice to load the default coordinates.
+The server will then start.
+By default, the server runs on port 42069. You need to forward this port in your router settings.
+You can now connect through the app using the correct IP:Port combination.
+If this port is being used by other devices in your current router, check on command prompt
+netstat -a -n -o | findstr :42069
+If you see a line with 42069, the port is already in use. Change the port in settings
 
-Der Server speichert automatisch die Spielwelt ab, nach jeder Player Action in der "savegame.hex" Datei.
-Diese wird bei jedem Neustart geladen.
-Um eine neue Welt zu starten, einfach diese Datei löschen, dann erstellt der Server eine neue SaveGame Datei.
+The server automatically saves the game world after every player action to the savegame.hex file.
+This file is loaded on every restart.
+To start a new world, simply delete this file, and the server will create a new savegame.
