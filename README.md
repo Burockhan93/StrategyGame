@@ -1,3 +1,6 @@
+
+![Animated GIF](tri6es-client/Assets/Demo/gameplay.gif)
+
 # 🌍 StrategyGame
 
 **StrategyGame** is an innovative real-time strategy game where the game map is generated using **real-world geographical data** and rendered using a **hexagonal tile system**. Players explore, collect resources from scattered chests, and engage in strategic decisions within a procedurally created world. The architecture includes a powerful server backend to handle data traffic and game logic.
