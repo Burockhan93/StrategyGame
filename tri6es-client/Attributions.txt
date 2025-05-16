@@ -1,0 +1,10 @@
+Attributions for icons used from elsewhere. Either replace these by your own or provide proper place for attribution
+once game is released.
+
+# Carrier Pigeon Icon
+Located at Assets/Textures/Icons/carrier-pigeon.png
+<a href="https://www.flaticon.com/free-icons/carrier-pigeon" title="carrier pigeon icons">Carrier pigeon icons created by Freepik - Flaticon</a>
+
+# Area Reconnaissance Icon
+Located at Assets/Textures/Icons/area-reconnaissance.png
+<a href="https://www.flaticon.com/free-icons/horse" title="horse icons">Horse icons created by bsd - Flaticon</a>

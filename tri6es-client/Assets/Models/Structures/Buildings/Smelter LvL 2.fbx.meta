@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: 2e8e34b4d21cad64a86a5e784de0bd3a
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: 200711900343839348
+    second: Team Color Obj.000|Cube.002Action
+  - first:
+      74: -5000445893426824818
+    second: Team Color Obj.000|Cube.003Action
+  - first:
+      74: -303677179132365136
+    second: Team Color Obj.000|Cube.004Action
+  - first:
+      74: -5956108714468479434
+    second: Team Color Obj.000|Cylinder.001Action
+  - first:
+      74: 3546487171112350847
+    second: Team Color Obj.000|Cylinder.002Action
+  - first:
+      74: -7235160867604590500
+    second: Team Color Obj.000|Cylinder.003Action
+  - first:
+      74: 8937218500495479368
+    second: Team Color Obj.000|Cylinder.004Action
+  - first:
+      74: -5737370226847203219
+    second: Team Color Obj.000|Cylinder.005Action
+  - first:
+      74: -5926391041696968798
+    second: Team Color Obj.000|Cylinder.006Action
+  - first:
+      74: 9168410741866080289
+    second: Team Color Obj.000|Cylinder.006Action.001
+  - first:
+      74: -8866778431260503009
+    second: Team Color Obj.000|Cylinder.008Action
+  - first:
+      74: -4340780371551244737
+    second: Team Color Obj.000|fanAction.005
+  - first:
+      74: 4476743901724385395
+    second: Team Color Obj.000|Plane.011Action
+  - first:
+      74: 8667018250274301907
+    second: Team Color Obj.000|Plane.011Action.001
+  - first:
+      74: 3359464097507583691
+    second: Team Color Obj.000|Plane.011Action.002
+  - first:
+      74: -2674465082876898061
+    second: Team Color Obj.000|Rock_Type4_01_mesh.001Action
+  - first:
+      74: 3286491985810644179
+    second: Team Color Obj.000|Rock_Type4_01_mesh.001Action.001
+  - first:
+      74: -2118837248438516592
+    second: Team Color Obj.000|Smelter.001Action
+  - first:
+      74: 4319549174269543667
+    second: Team Color Obj.000|Smelter.002Action
+  - first:
+      74: -2152235974273349983
+    second: Team Color Obj.000|SmelterAction
+  - first:
+      74: 352776703582504610
+    second: Team Color Obj.000|Team Color Obj.000Action
+  - first:
+      74: -4462544643964341806
+    second: Team Color Obj.000|Team Color Obj.003Action
+  - first:
+      74: 891458699890216144
+    second: Team Color Obj.000|Team Color Obj.005Action
+  - first:
+      74: 2862134666233476773
+    second: Team Color Obj.000|Team Color Obj.006Action.005
+  - first:
+      74: 6712369695479197947
+    second: Cube.002|Cube.002Action
+  - first:
+      74: -7944832092688391277
+    second: Cube.002|Cube.003Action
+  - first:
+      74: 9117891803251970930
+    second: Cube.002|Cube.004Action
+  - first:
+      74: -7283567251552944124
+    second: Cube.002|Cylinder.001Action
+  - first:
+      74: -3935324278307938802
+    second: Cube.002|Cylinder.002Action
+  - first:
+      74: -3494224018043508447
+    second: Cube.002|Cylinder.003Action
+  - first:
+      74: -3044005174841826320
+    second: Cube.002|Cylinder.004Action
+  - first:
+      74: 3882320871042162909
+    second: Cube.002|Cylinder.005Action
+  - first:
+      74: -2641096165614613440
+    second: Cube.002|Cylinder.006Action
+  - first:
+      74: -6563437836996915548
+    second: Cube.002|Cylinder.006Action.001
+  - first:
+      74: -966137802441664477
+    second: Cube.002|Cylinder.008Action
+  - first:
+      74: 1797337932045783571
+    second: Cube.002|fanAction.005
+  - first:
+      74: 1006333542234695904
+    second: Cube.002|Plane.011Action
+  - first:
+      74: -7842840731383527715
+    second: Cube.002|Plane.011Action.001
+  - first:
+      74: 2543039176549831782
+    second: Cube.002|Plane.011Action.002
+  - first:
+      74: -8413513715392988612
+    second: Cube.002|Rock_Type4_01_mesh.001Action
+  - first:
+      74: 505943269545142141
+    second: Cube.002|Rock_Type4_01_mesh.001Action.001
+  - first:
+      74: -1228960192284900026
+    second: Cube.002|Smelter.001Action
+  - first:
+      74: 781158699091938998
+    second: Cube.002|Smelter.002Action
+  - first:
+      74: -5606874638686737647
+    second: Cube.002|SmelterAction
+  - first:
+      74: 9050461012203983971
+    second: Cube.002|Team Color Obj.000Action
+  - first:
+      74: 7832825320436112660
+    second: Cube.002|Team Color Obj.003Action
+  - first:
+      74: -1878275520940705438
+    second: Cube.002|Team Color Obj.005Action
+  - first:
+      74: -4592660471641562855
+    second: Cube.002|Team Color Obj.006Action.005
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark Lime.001
+    second: {fileID: 2100000, guid: d65c06e13a4f8a741bef32f234b5760e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lava.001
+    second: {fileID: 2100000, guid: 410200d55892abe4c9669ce79cae587f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Limestone.001
+    second: {fileID: 2100000, guid: 95152b6d26375824986856b526bfe91a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone
+    second: {fileID: 2100000, guid: 52d2dc62c20084346b2f752a7e5df672, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone.004
+    second: {fileID: 2100000, guid: 52d2dc62c20084346b2f752a7e5df672, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TeamColor.001
+    second: {fileID: 2100000, guid: b89ee6282de10fe44aef5a0a87b9f500, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

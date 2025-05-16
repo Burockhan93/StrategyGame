@@ -1,0 +1,10 @@
+obj/
+bin/
+.vs/
+.idea/
+Properties/
+
+*.user
+savegame.hex
+neu 3.xml
+Wetterdaten.txt
